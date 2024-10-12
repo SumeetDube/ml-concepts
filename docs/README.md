@@ -1,4 +1,7 @@
-[kl-Divergence](kl-Divergence.md)
+
+This repository contains code and information about important machine-learning concepts.
+The **code** is in the `ml-code` directory. The `dataset` contains all the datasets used. 
+
 ### Data Preprocessing and Cleaning
 
 1. **[Handling Missing Values](Handling%20Missing%20Values.md)**https://www.kaggle.com/code/dansbecker/handling-missing-values
@@ -85,6 +88,7 @@
 51. **Saving and Loading Models (Pickle, Joblib)**
 52. **Model Serving (Flask, FastAPI)**
 53. **Model Monitoring and Maintenance**
+54. [kl-Divergence](kl-Divergence.md)
 
 ### General Techniques
 
