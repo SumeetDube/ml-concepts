@@ -1,0 +1,15 @@
+digraph {
+	Input [label="Input Image"]
+	ResNet [label="ResNet50 Backbone"]
+	FPN [label="Feature Pyramid Network"]
+	Class [label="Classification Head"]
+	Loc [label="Localization Head"]
+	Seg [label="Segmentation Head"]
+	I -> R
+	R -> F
+	F -> F
+	F -> C
+	FPN -> Class [label=Features]
+	FPN -> Loc [label=Features]
+	FPN -> Seg [label=Features]
+}
